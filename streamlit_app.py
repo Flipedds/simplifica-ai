@@ -27,8 +27,8 @@ with tab1:
 
     with st.form(key="simplifica_termo_form"):
         nome_termo = st.text_input("Nome do termo técnico", "")
-        contexto = st.selectbox("Contexto", ["programação", "design", "negócios"])
-        nivel = st.selectbox("Nível", ["básico", "intermediário", "avançado"])
+        contexto = st.selectbox("Contexto", ["programação", "design", "negócios", "jogos"])
+        nivel = st.selectbox("Nível de Conhecimento", ["básico", "intermediário", "avançado"])
 
         submit_button_termo = st.form_submit_button(label="Simplificar Termo")
 
