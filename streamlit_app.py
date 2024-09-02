@@ -23,7 +23,7 @@ st.title("Simplifica.ai")
 tab1, tab2 = st.tabs(["Termo Técnico", "Tecnologia"])
 
 with tab1:
-    st.header("Simplificação de Termos Técnicos")
+    st.header("Explicação Simplificada de Termos Técnicos")
 
     with st.form(key="simplifica_termo_form"):
         nome_termo = st.text_input("Nome do termo técnico", "")
@@ -41,7 +41,7 @@ with tab1:
             st.write(resposta_termo)
 
 with tab2:
-    st.header("Simplificação de Tecnologia")
+    st.header("Explicação Simplificada de Tecnologia")
 
     with st.form(key="simplifica_tech_form"):
         nome_tech = st.text_input("Nome da tecnologia", "")
